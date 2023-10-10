@@ -1,8 +1,10 @@
+import icon from '../src/icons-suitcase.png';
+
 export default function Stats({ items }) {
   if (!items.length)
     return (
       <footer className="stats">
-        <img src="src/icons-suitcase.png" alt="suitcase" />
+        <img src={icon} alt="suitcase" />
         <span>Start adding items to your packing list ~</span>
       </footer>
     );
@@ -13,7 +15,7 @@ export default function Stats({ items }) {
 
   return (
     <footer className="stats">
-      <img src="src/icons-suitcase.png" alt="suitcase" />
+      <img src={icon} alt="suitcase" />
       <span>
         {percent === 100
           ? 'You got everything! Ready to go!'
