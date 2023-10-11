@@ -128,7 +128,7 @@ button:focus, select:focus, input:focus {
 
 li > span {
     word-break: break-all;
-    max-width: 15rem;
+    max-width: 20rem;
 }
 
 input[type="checkbox"] {

@@ -1,4 +1,4 @@
-import icon from '../src/icons-suitcase.png';
+import icon from '../icons-suitcase.png';
 
 export default function Stats({ items }) {
   if (!items.length)
